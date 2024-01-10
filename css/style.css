@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.container {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1fr 4fr
+}
+
+.sidebar {
+    background-color: #075985;
+    display: grid;
+    grid-row: 1 / 3;
+}
+
+.main-logo, .sidebar-text-logo {
+    padding-right:200px;
+    padding-top: 15px;
+}
+
+.sidebar-logo  {
+    color: white;
+    font-size: 35px;
+}
+
+.sidebar-text-logo {
+    position: absolute;
+    color: white;
+    font-size: 28px;
+    left: 67px;
+    top: 2px;
+}
+
+.sidebar-text, .logo  {
+    color: white;
+    font-size: 20px;
+}
+
+.logo {
+    padding-right: 15px;
+}
+
+.logo, .sidebar-text {
+    padding-top: 20px;
+}
+
+.sidebar-text {
+    width: 50px;
+}
+
+.sidebar-first-column li {
+    list-style-type: none;
+}
+
+.sidebar-first-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-content: center;
+}
+
+.sidebar-second-column {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sidebar-second-column li {
+    list-style-type: none;
+}
+
+.sidebar-first-column, .sidebar-second-column {
+    padding-left: 20px;
+    padding-top: 75px;
+    padding-bottom: 250px;
+    position: absolute
+}
+
+.sidebar-second-column {
+    padding-right:133px;
+    padding-top: 405px;
+    padding-bottom: 250px;
+    position: absolute
+}
+
+.header {
+    background-color: rgb(102, 236, 102);
+    display: grid;
+    grid-row: 2 / 1;
+    grid-column: 2 / 3;
+}
+
+
+.searchbar {
+    display: inline-block;
+    border: 1px solid black;
+    width: 500px;
+    height: 20px;
+    background-color:rgba(255, 255, 255, 0.5);
+}
+
+.twitter-name {
+    display: block;
+}
+
+.main-container {
+    background-color: rgb(105, 184, 105);
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.card-container {
+    padding-top: 30px;
+    padding-left: 110px;
+    padding-right: 450px;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-container .card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    border: 1px solid blue;
+    width: 450px;
+    height: 170px;
+}
+
+.annoucements-container {
+    display: grid;
+    justify-content: end;
+    position: absolute;
+    bottom: 80px;
+    left: 1490px;
+    gap: 34px;
+}
+
+
+.announcements-text-container, .trending-text-images-container {
+    border: 1px solid red;
+    width: 300px;
+    height: 250px;
+}
+
+
+
