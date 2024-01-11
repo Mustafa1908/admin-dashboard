@@ -98,23 +98,96 @@
 }
 
 .header {
-    background-color: rgb(102, 236, 102);
+    background-color:#f1f5f9;
     display: grid;
     grid-row: 2 / 1;
     grid-column: 2 / 3;
 }
 
+.searchbar-container {
+    position: absolute;
+    left: 320px;
+    top: 20px;
+}
 
 .searchbar {
     display: inline-block;
-    border: 1px solid black;
-    width: 500px;
-    height: 20px;
-    background-color:rgba(255, 255, 255, 0.5);
+    border: 1px solid rgb(197, 181, 181);
+    width: 620px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.header-top-right-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 1580px;
+    top: 5px;
+    gap: 20px;
+}
+
+.picture-top-right {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.user-name {
+    font-weight: 600;
+}
+
+.header-bottom-left-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 90px;
+    left: 310px;    
+}
+
+.picture-bottom-left {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.header-welcome-text {
+    padding-right: 224px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 13px;
 }
 
 .twitter-name {
-    display: block;
+    font-size: 23px;
+}
+
+.twitter-name, .header-welcome-text {
+    font-weight: 600;
+    
+}
+
+.header-buttons-container {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 25px;
+    padding-right: 100px;
+}
+
+.header-button {
+    background-color: #6366f1;
+    border: 1px solid transparent;
+    width: 90px;
+    height: 39px;
+    border-radius: 20px;
+}
+
+.button-text {
+    font-size: 13px;
+    color: white;
+    
 }
 
 .main-container {
