@@ -53,6 +53,10 @@
     padding-right: 15px;
 }
 
+ li span:hover {
+    cursor: pointer;
+}
+
 .logo, .sidebar-text {
     padding-top: 20px;
 }
@@ -267,6 +271,10 @@
     font-size: 23px;
 }
 
+.card-icons:hover, img:hover, button:hover, .notification-icon, .card-title:hover {
+    cursor: pointer;
+}
+
 .annoucements-container {
     display: grid;
     justify-content: end;
@@ -352,5 +360,9 @@
 
 .trend-text, .trend-hashtag {
     text-align: left;
+}
+
+.trend-hashtag:hover, .trending-description:hover {
+    cursor: pointer;
 }
 
