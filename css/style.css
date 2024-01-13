@@ -271,7 +271,7 @@
     font-size: 23px;
 }
 
-.card-icons:hover, img:hover, button:hover, .notification-icon, .card-title:hover {
+.card-icons:hover, img:hover, button:hover, .notification-icon, .card-title:hover, .announcements-subtitle:hover {
     cursor: pointer;
 }
 
